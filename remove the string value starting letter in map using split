@@ -1,0 +1,7 @@
+a=input().split()
+b=[]
+for i in range(3):
+    b.append(input())
+for i in a:
+    if i[0] not in b:
+        print(i)   
