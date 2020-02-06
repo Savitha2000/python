@@ -1,0 +1,18 @@
+n=45
+a=n*n
+print(a)
+b=str(a)
+c=len(b)
+d=c//2
+e=b[:d]
+f=b[d:]
+g=int(e)
+h=int(f)
+i=g+h
+if n==i:
+    print("kepreker number")
+else:
+    print("not kepreker number")
+    
+
+
