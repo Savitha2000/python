@@ -1,20 +1,16 @@
-sum=0
+import math
 a=int(input())
-temp=a
-while(a):
-    i=1
-    f=1
-    r=a%10
-    while(i<=r):
-        f=f*i
-        i=i+1
-        sum=sum+f
-        a=a//10
-if (sum==temp):
-    print("The number is a strong number")
-    
+b=str(a)
+c=[]
+d=[]
+for i in range(len(b)):
+    c.append(int(b[i]))
+    d.append(math.factorial(c[i]))
+    e=sum(d)
+if e==a:
+    print("Strong number")
 else:
-    print("The number is not a strong number")
+    print("Not a strong number")
     
     
             
