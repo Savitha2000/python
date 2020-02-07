@@ -1,0 +1,11 @@
+a=5
+s=a//2
+for i in range(1,a+2,2):
+    print(" "*s+"*"*i+" "*s)
+    s-=1
+d=a%2
+for j in range(a-2,0,-2):
+    print(" "*d+"*"*j+" "*d)
+    d+=1
+
+    
