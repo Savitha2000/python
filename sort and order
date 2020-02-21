@@ -1,0 +1,16 @@
+a=(input())
+b=sorted(a)
+c=max(b)
+d=b[-2]
+print(c,d)
+n=a[5:8]
+print(n)
+m=a[4]
+print(m)
+q=a[0:4]
+print(q)
+r=n+m
+print(r)
+s=r+q
+print(s)
+//ip 25317486
