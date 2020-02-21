@@ -1,0 +1,8 @@
+a=int(input())
+for i in range(2,a):
+    while(a%i==0):
+        print(i,end=' ')
+        a/=i
+        //ip 12
+        //op 2 2 3 
+        
