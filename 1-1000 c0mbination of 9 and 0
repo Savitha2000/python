@@ -1,0 +1,6 @@
+for i in range(0,8):
+    d=bin(i)[2:]
+    c=d.replace("1","9")
+    print(c)
+    
+    
